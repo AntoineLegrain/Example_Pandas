@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Who ?'
+__author__ = 'Solange'
 
-author == Solange
 
 import pandas as pd
 
