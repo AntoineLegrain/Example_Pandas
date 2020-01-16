@@ -28,7 +28,7 @@ mergeRatings = pd.merge(pd.merge(users, ratings), movies)
 #modif pour faire un conflit si tuveux vraimen!
 
 def cloneDF(df):
-    return pd.DataFrame(df.values.copy(), df.index.copy(), df.columns.copy()).convert_objects(convert_numeric=True)
+    return pd.DataFrame(df.values.copy(), df.index.copy(), df.columns.copy()).apply(pd.to_numeric, errors='ignore')
 
 
 # Simple pivot (Groupby + avg)
