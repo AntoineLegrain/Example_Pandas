@@ -23,6 +23,9 @@ mergeRatings = pd.merge(pd.merge(users, ratings), movies)
 
 # Clone DataFrame
 
+
+#modif pour faire des conflits
+
 #modif pour faire un conflit si tuveux vraimen!
 
 def cloneDF(df):
